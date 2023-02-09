@@ -2,8 +2,8 @@
 import requests 
 from bs4 import BeautifulSoup
 
-cookie = ''  # 配置你的cookie
-sckey = '' # 配置你的server酱SCKEY
+cookie = 'Hm_lvt_46d556462595ed05e05f009cdafff31a=1666432616; htVC_2132_saltkey=vlee2xew; htVC_2132_lastvisit=1675207549; htVC_2132_client_created=1675240283; htVC_2132_client_token=C93F1A76EC47ECD2A272EB96A7651B4A; htVC_2132_auth=a4fflFYRa1tPt3KNM0sXjbOfUX2oMbPDTPzbwlWWZI%2B1ol27tc3qn3MBTISKh2sWJLM2wfj%2FVEizPqtVMzVsI7nC6rHq; htVC_2132_connect_login=1; htVC_2132_connect_is_bind=1; htVC_2132_connect_uin=C93F1A76EC47ECD2A272EB96A7651B4A; htVC_2132_nofavfid=1; htVC_2132_atarget=1; wzws_sessionid=gDExMy44Ny4yMzQuMTAwoGPhy9qCZGIxY2FhgWI5Y2JkOA==; htVC_2132_sid=0; htVC_2132_ttask=1603574%7C20230208; htVC_2132_noticonf=1603574D1D3_3_1; htVC_2132_ulastactivity=1675906394%7C0; htVC_2132_noticeTitle=1; htVC_2132_visitedfid=5D24D2D75D8; htVC_2132_viewid=tid_697540; htVC_2132_st_p=1603574%7C1675906942%7C64a3082dc1ccaa9f52f721fd47dfb7c0; htVC_2132_lastact=1675907124%09plugin.php%09'  # 配置你的cookie
+sckey = 'SCT195481Tgi5gISo9TkPb8D3dh2KauAOR' # 配置你的server酱SCKEY
 
 def pushinfo(info,specific):
     headers={   
